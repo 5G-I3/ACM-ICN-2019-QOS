@@ -1,0 +1,313 @@
+    // m3-65, 15:11:6B:10:65:FA:A4:16, 13
+    if (strcmp(my_addr, "15:11:6B:10:65:FA:A4:16") == 0) {
+        add_fib("/HK/control", "15:11:6B:10:65:FC:5C:52");
+    }
+
+    // m3-54, 15:11:6B:10:65:FC:5C:52, 12
+    if (strcmp(my_addr, "15:11:6B:10:65:FC:5C:52") == 0) {
+        add_fib("/HK/sensors/15:11:6B:10:65:FA:A4:16", "15:11:6B:10:65:FA:A4:16");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:A5:36", "15:11:6B:10:65:F7:A5:36");
+        add_fib("/HK/control", "15:11:6B:10:65:FB:A4:3A");
+    }
+
+    // m3-60, 15:11:6B:10:65:F7:A5:36, 13
+    if (strcmp(my_addr, "15:11:6B:10:65:F7:A5:36") == 0) {
+        add_fib("/HK/control", "15:11:6B:10:65:FC:5C:52");
+    }
+
+    // m3-40, 15:11:6B:10:65:FB:A4:3A, 11
+    if (strcmp(my_addr, "15:11:6B:10:65:FB:A4:3A") == 0) {
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5C:52", "15:11:6B:10:65:FC:5C:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:FA:A4:16", "15:11:6B:10:65:FC:5C:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:A5:36", "15:11:6B:10:65:FC:5C:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:FE:A9:52", "15:11:6B:10:65:FE:A9:52");
+        add_fib("/HK/control", "15:11:6B:10:65:FD:B4:52");
+    }
+
+    // m3-47, 15:11:6B:10:65:FE:A9:52, 12
+    if (strcmp(my_addr, "15:11:6B:10:65:FE:A9:52") == 0) {
+        add_fib("/HK/control", "15:11:6B:10:65:FB:A4:3A");
+    }
+
+    // m3-30, 15:11:6B:10:65:FD:B4:52, 10
+    if (strcmp(my_addr, "15:11:6B:10:65:FD:B4:52") == 0) {
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:A4:3A", "15:11:6B:10:65:FB:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5C:52", "15:11:6B:10:65:FB:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:FA:A4:16", "15:11:6B:10:65:FB:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:FE:A9:52", "15:11:6B:10:65:FB:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:A5:36", "15:11:6B:10:65:FB:A4:3A");
+        add_fib("/HK/control", "15:11:6B:10:65:F8:AB:22");
+    }
+
+    // m3-34, 15:11:6B:10:65:F7:B4:2A, 10
+    if (strcmp(my_addr, "15:11:6B:10:65:F7:B4:2A") == 0) {
+        add_fib("/HK/control", "15:11:6B:10:65:F8:AD:1A");
+    }
+
+    // m3-24, 15:11:6B:10:65:F8:AD:1A, 9
+    if (strcmp(my_addr, "15:11:6B:10:65:F8:AD:1A") == 0) {
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:B4:2A", "15:11:6B:10:65:F7:B4:2A");
+        add_fib("/HK/control", "15:11:6B:10:65:F8:5C:52");
+    }
+
+    // m3-20, 15:11:6B:10:65:F8:AB:22, 9
+    if (strcmp(my_addr, "15:11:6B:10:65:F8:AB:22") == 0) {
+        add_fib("/HK/sensors/15:11:6B:10:65:FD:B4:52", "15:11:6B:10:65:FD:B4:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5C:52", "15:11:6B:10:65:FD:B4:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:FA:A4:16", "15:11:6B:10:65:FD:B4:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:FE:A9:52", "15:11:6B:10:65:FD:B4:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:A4:3A", "15:11:6B:10:65:FD:B4:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:A5:36", "15:11:6B:10:65:FD:B4:52");
+        add_fib("/HK/control", "15:11:6B:10:65:F8:5C:52");
+    }
+
+    // m3-15, 15:11:6B:10:65:F8:5C:52, 8
+    if (strcmp(my_addr, "15:11:6B:10:65:F8:5C:52") == 0) {
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AD:1A", "15:11:6B:10:65:F8:AD:1A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:B4:2A", "15:11:6B:10:65:F8:AD:1A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AB:22", "15:11:6B:10:65:F8:AB:22");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5C:52", "15:11:6B:10:65:F8:AB:22");
+        add_fib("/HK/sensors/15:11:6B:10:65:FA:A4:16", "15:11:6B:10:65:F8:AB:22");
+        add_fib("/HK/sensors/15:11:6B:10:65:FE:A9:52", "15:11:6B:10:65:F8:AB:22");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:A4:3A", "15:11:6B:10:65:F8:AB:22");
+        add_fib("/HK/sensors/15:11:6B:10:65:FD:B4:52", "15:11:6B:10:65:F8:AB:22");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:A5:36", "15:11:6B:10:65:F8:AB:22");
+        add_fib("/HK/control", "15:11:6B:10:65:F6:BE:32");
+    }
+
+    // m3-9, 15:11:6B:10:65:F6:BE:32, 7
+    if (strcmp(my_addr, "15:11:6B:10:65:F6:BE:32") == 0) {
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:5C:52", "15:11:6B:10:65:F8:5C:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5C:52", "15:11:6B:10:65:F8:5C:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AB:22", "15:11:6B:10:65:F8:5C:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:B4:2A", "15:11:6B:10:65:F8:5C:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:FA:A4:16", "15:11:6B:10:65:F8:5C:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AD:1A", "15:11:6B:10:65:F8:5C:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:FE:A9:52", "15:11:6B:10:65:F8:5C:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:A4:3A", "15:11:6B:10:65:F8:5C:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:FD:B4:52", "15:11:6B:10:65:F8:5C:52");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:A5:36", "15:11:6B:10:65:F8:5C:52");
+        add_fib("/HK/control", "15:11:6B:10:65:F4:88:32");
+    }
+
+    // m3-1, 15:11:6B:10:65:F4:88:32, 6
+    if (strcmp(my_addr, "15:11:6B:10:65:F4:88:32") == 0) {
+        add_fib("/HK/sensors/15:11:6B:10:65:F6:BE:32", "15:11:6B:10:65:F6:BE:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5C:52", "15:11:6B:10:65:F6:BE:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AB:22", "15:11:6B:10:65:F6:BE:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:B4:2A", "15:11:6B:10:65:F6:BE:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:FA:A4:16", "15:11:6B:10:65:F6:BE:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AD:1A", "15:11:6B:10:65:F6:BE:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:FE:A9:52", "15:11:6B:10:65:F6:BE:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:A4:3A", "15:11:6B:10:65:F6:BE:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:FD:B4:52", "15:11:6B:10:65:F6:BE:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:A5:36", "15:11:6B:10:65:F6:BE:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:5C:52", "15:11:6B:10:65:F6:BE:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5E:36", "15:11:6B:10:65:FC:5E:36");
+        add_fib("/HK/control", "15:11:6B:10:65:F7:BB:02");
+    }
+
+    // m3-6, 15:11:6B:10:65:FC:5E:36, 7
+    if (strcmp(my_addr, "15:11:6B:10:65:FC:5E:36") == 0) {
+        add_fib("/HK/control", "15:11:6B:10:65:F4:88:32");
+    }
+
+    // m3-70, 15:11:6B:10:65:F7:BB:02, 5
+    if (strcmp(my_addr, "15:11:6B:10:65:F7:BB:02") == 0) {
+        add_fib("/HK/sensors/15:11:6B:10:65:F4:88:32", "15:11:6B:10:65:F4:88:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5C:52", "15:11:6B:10:65:F4:88:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:F6:BE:32", "15:11:6B:10:65:F4:88:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AB:22", "15:11:6B:10:65:F4:88:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:B4:2A", "15:11:6B:10:65:F4:88:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:FA:A4:16", "15:11:6B:10:65:F4:88:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AD:1A", "15:11:6B:10:65:F4:88:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5E:36", "15:11:6B:10:65:F4:88:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:FE:A9:52", "15:11:6B:10:65:F4:88:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:A4:3A", "15:11:6B:10:65:F4:88:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:FD:B4:52", "15:11:6B:10:65:F4:88:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:A5:36", "15:11:6B:10:65:F4:88:32");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:5C:52", "15:11:6B:10:65:F4:88:32");
+        add_fib("/HK/control", "15:11:6B:10:65:F6:AA:06");
+    }
+
+    // m3-80, 15:11:6B:10:65:F6:AA:06, 4
+    if (strcmp(my_addr, "15:11:6B:10:65:F6:AA:06") == 0) {
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:BB:02", "15:11:6B:10:65:F7:BB:02");
+        add_fib("/HK/sensors/15:11:6B:10:65:F4:88:32", "15:11:6B:10:65:F7:BB:02");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5C:52", "15:11:6B:10:65:F7:BB:02");
+        add_fib("/HK/sensors/15:11:6B:10:65:F6:BE:32", "15:11:6B:10:65:F7:BB:02");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AB:22", "15:11:6B:10:65:F7:BB:02");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:B4:2A", "15:11:6B:10:65:F7:BB:02");
+        add_fib("/HK/sensors/15:11:6B:10:65:FA:A4:16", "15:11:6B:10:65:F7:BB:02");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AD:1A", "15:11:6B:10:65:F7:BB:02");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5E:36", "15:11:6B:10:65:F7:BB:02");
+        add_fib("/HK/sensors/15:11:6B:10:65:FE:A9:52", "15:11:6B:10:65:F7:BB:02");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:A4:3A", "15:11:6B:10:65:F7:BB:02");
+        add_fib("/HK/sensors/15:11:6B:10:65:FD:B4:52", "15:11:6B:10:65:F7:BB:02");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:A5:36", "15:11:6B:10:65:F7:BB:02");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:5C:52", "15:11:6B:10:65:F7:BB:02");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AB:02", "15:11:6B:10:65:F8:AB:02");
+        add_fib("/HK/control", "15:11:6B:10:65:F7:A4:3A");
+    }
+
+    // m3-76, 15:11:6B:10:65:F8:AB:02, 5
+    if (strcmp(my_addr, "15:11:6B:10:65:F8:AB:02") == 0) {
+        add_fib("/HK/control", "15:11:6B:10:65:F6:AA:06");
+    }
+
+    // m3-90, 15:11:6B:10:65:F7:A4:3A, 3
+    if (strcmp(my_addr, "15:11:6B:10:65:F7:A4:3A") == 0) {
+        add_fib("/HK/sensors/15:11:6B:10:65:F6:AA:06", "15:11:6B:10:65:F6:AA:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:F4:88:32", "15:11:6B:10:65:F6:AA:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:F6:BE:32", "15:11:6B:10:65:F6:AA:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AB:22", "15:11:6B:10:65:F6:AA:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:FA:A4:16", "15:11:6B:10:65:F6:AA:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AD:1A", "15:11:6B:10:65:F6:AA:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5E:36", "15:11:6B:10:65:F6:AA:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:A4:3A", "15:11:6B:10:65:F6:AA:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:FD:B4:52", "15:11:6B:10:65:F6:AA:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:A5:36", "15:11:6B:10:65:F6:AA:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:BB:02", "15:11:6B:10:65:F6:AA:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5C:52", "15:11:6B:10:65:F6:AA:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AB:02", "15:11:6B:10:65:F6:AA:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:B4:2A", "15:11:6B:10:65:F6:AA:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:FE:A9:52", "15:11:6B:10:65:F6:AA:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:5C:52", "15:11:6B:10:65:F6:AA:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:F9:AD:36", "15:11:6B:10:65:F9:AD:36");
+        add_fib("/HK/control", "15:11:6B:10:65:FB:BC:3A");
+    }
+
+    // m3-86, 15:11:6B:10:65:F9:AD:36, 4
+    if (strcmp(my_addr, "15:11:6B:10:65:F9:AD:36") == 0) {
+        add_fib("/HK/control", "15:11:6B:10:65:F7:A4:3A");
+    }
+
+    // m3-94, 15:11:6B:10:65:FB:BC:3A, 2
+    if (strcmp(my_addr, "15:11:6B:10:65:FB:BC:3A") == 0) {
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:A4:3A", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F4:88:32", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F6:AA:06", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F6:BE:32", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AB:22", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:FA:A4:16", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AD:1A", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5E:36", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:A4:3A", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:FD:B4:52", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:A5:36", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:BB:02", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5C:52", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AB:02", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:B4:2A", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F9:AD:36", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:FE:A9:52", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:5C:52", "15:11:6B:10:65:F7:A4:3A");
+        add_fib("/HK/control", "15:11:6B:10:65:F4:B4:26");
+    }
+
+    // m3-96, 15:11:6B:10:65:F4:B4:26, 1
+    if (strcmp(my_addr, "15:11:6B:10:65:F4:B4:26") == 0) {
+        i_am_root = 1;
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:BC:3A", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F4:88:32", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F6:AA:06", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F6:BE:32", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AB:22", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:FA:A4:16", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AD:1A", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5E:36", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:A4:3A", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:FD:B4:52", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:A5:36", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:BB:02", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:A4:3A", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5C:52", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:AB:02", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F7:B4:2A", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F9:AD:36", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:FE:A9:52", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:F8:5C:52", "15:11:6B:10:65:FB:BC:3A");
+        add_fib("/HK/sensors/15:11:6B:10:65:FA:AD:16", "15:11:6B:10:65:FA:AD:16");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:5C:32", "15:11:6B:10:65:FA:AD:16");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5C:32", "15:11:6B:10:65:FA:AD:16");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:5F:36", "15:11:6B:10:65:FA:AD:16");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:5F:06", "15:11:6B:10:65:FA:AD:16");
+        add_fib("/HK/sensors/15:11:6B:10:65:FA:5F:06", "15:11:6B:10:65:FA:AD:16");
+        add_fib("/HK/sensors/15:11:6B:10:65:F6:AD:06", "15:11:6B:10:65:FA:AD:16");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:AC:3A", "15:11:6B:10:65:FA:AD:16");
+        add_fib("/HK/sensors/15:11:6B:10:65:F6:A4:36", "15:11:6B:10:65:F6:A4:36");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:A9:36", "15:11:6B:10:65:FB:A9:36");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:AB:22", "15:11:6B:10:65:FB:AB:22");
+    }
+
+    // m3-175, 15:11:6B:10:65:FC:AC:3A, 6
+    if (strcmp(my_addr, "15:11:6B:10:65:FC:AC:3A") == 0) {
+        add_fib("/HK/control", "15:11:6B:10:65:F6:AD:06");
+    }
+
+    // m3-166, 15:11:6B:10:65:F6:AD:06, 5
+    if (strcmp(my_addr, "15:11:6B:10:65:F6:AD:06") == 0) {
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:AC:3A", "15:11:6B:10:65:FC:AC:3A");
+        add_fib("/HK/control", "15:11:6B:10:65:FB:5F:06");
+    }
+
+    // m3-149, 15:11:6B:10:65:FB:5F:06, 4
+    if (strcmp(my_addr, "15:11:6B:10:65:FB:5F:06") == 0) {
+        add_fib("/HK/sensors/15:11:6B:10:65:F6:AD:06", "15:11:6B:10:65:F6:AD:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:AC:3A", "15:11:6B:10:65:F6:AD:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5C:32", "15:11:6B:10:65:FC:5C:32");
+        add_fib("/HK/control", "15:11:6B:10:65:FA:5F:06");
+    }
+
+    // m3-157, 15:11:6B:10:65:FC:5C:32, 5
+    if (strcmp(my_addr, "15:11:6B:10:65:FC:5C:32") == 0) {
+        add_fib("/HK/control", "15:11:6B:10:65:FB:5F:06");
+    }
+
+    // m3-129, 15:11:6B:10:65:FA:5F:06, 3
+    if (strcmp(my_addr, "15:11:6B:10:65:FA:5F:06") == 0) {
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:5F:06", "15:11:6B:10:65:FB:5F:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5C:32", "15:11:6B:10:65:FB:5F:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:F6:AD:06", "15:11:6B:10:65:FB:5F:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:AC:3A", "15:11:6B:10:65:FB:5F:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:5F:36", "15:11:6B:10:65:FB:5F:36");
+        add_fib("/HK/control", "15:11:6B:10:65:FA:AD:16");
+    }
+
+    // m3-142, 15:11:6B:10:65:FB:5F:36, 4
+    if (strcmp(my_addr, "15:11:6B:10:65:FB:5F:36") == 0) {
+        add_fib("/HK/control", "15:11:6B:10:65:FA:5F:06");
+    }
+
+    // m3-115, 15:11:6B:10:65:FA:AD:16, 2
+    if (strcmp(my_addr, "15:11:6B:10:65:FA:AD:16") == 0) {
+        add_fib("/HK/sensors/15:11:6B:10:65:FA:5F:06", "15:11:6B:10:65:FA:5F:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:5C:32", "15:11:6B:10:65:FA:5F:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:5F:36", "15:11:6B:10:65:FA:5F:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:FC:AC:3A", "15:11:6B:10:65:FA:5F:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:5F:06", "15:11:6B:10:65:FA:5F:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:F6:AD:06", "15:11:6B:10:65:FA:5F:06");
+        add_fib("/HK/sensors/15:11:6B:10:65:FB:5C:32", "15:11:6B:10:65:FB:5C:32");
+        add_fib("/HK/control", "15:11:6B:10:65:F4:B4:26");
+    }
+
+    // m3-122, 15:11:6B:10:65:FB:5C:32, 3
+    if (strcmp(my_addr, "15:11:6B:10:65:FB:5C:32") == 0) {
+        add_fib("/HK/control", "15:11:6B:10:65:FA:AD:16");
+    }
+
+    // m3-112, 15:11:6B:10:65:F6:A4:36, 2
+    if (strcmp(my_addr, "15:11:6B:10:65:F6:A4:36") == 0) {
+        add_fib("/HK/control", "15:11:6B:10:65:F4:B4:26");
+    }
+
+    // m3-104, 15:11:6B:10:65:FB:A9:36, 2
+    if (strcmp(my_addr, "15:11:6B:10:65:FB:A9:36") == 0) {
+        add_fib("/HK/control", "15:11:6B:10:65:F4:B4:26");
+    }
+
+    // m3-99, 15:11:6B:10:65:FB:AB:22, 2
+    if (strcmp(my_addr, "15:11:6B:10:65:FB:AB:22") == 0) {
+        add_fib("/HK/control", "15:11:6B:10:65:F4:B4:26");
+    }
+
